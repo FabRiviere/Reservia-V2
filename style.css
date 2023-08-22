@@ -1,0 +1,1575 @@
+/* Setting up the font "Raleway" in link with the url in html*/
+
+body
+{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+/* External margins and font size on all title in h2 */
+
+h2
+{
+    margin: 30px 0 20px 20px;
+    font-size: 1.4em;
+}
+
+/* Left and right margin on the entire page */
+
+header, main
+{
+margin: 0 50px 0 50px;
+}
+
+                                    /*HEADER / NAV */
+
+/* Mobile navigation not displayed */
+
+.mobile
+{
+    display: none;
+}
+
+/* Placement of the logo */
+
+#logo
+{
+    padding-top: 30px;
+}
+/* Alignment of nav elements and logo */
+
+nav
+{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.2em;
+}
+
+/* removal of underline text on navigation links */
+
+nav a
+{
+	text-decoration:none;
+}
+
+/* shaping of navigation bar */
+
+.link
+{
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-end;
+	width: 40%;
+}
+
+/* shaping of the elements of navigation bar */
+
+#link-element
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 33%;	  
+}
+
+/* Formatting of overline to the elements of navigation bar*/
+
+.overline-element
+{
+	height: 3px;
+	background-color: #f2f2f2;
+	margin:0 0 40px 0;
+	width: 100%;
+}
+
+.element
+{
+	color: #000000;
+    padding: 0 50px;
+}
+
+.element:visited
+{
+	color: #0065fc;
+}
+
+ .element:hover
+{
+	color: #0065fc;
+    font-weight: 600;
+}
+
+.link-element:visited >.overline-element:visited
+{
+	background-color: #0035fc;
+}
+
+.link-element:hover >.overline-element
+{
+	background-color: #0065fc;
+}
+
+.active-link >.overline-element
+{
+    background-color: #0065fc;
+}
+.active-link > .element
+{
+    color: #0065fc;
+}
+
+/* Formatting element "S'incrire" */
+
+#sign-up 
+{
+	margin: 40px 10px 0 10px;
+    width: 33%;
+    text-align: center;
+}
+
+#sign-up a
+{
+    color: #0065fc;
+    font-weight: 900;
+}
+
+                                    /*MAIN */
+
+/* Change title h1 by changing text size */ 
+
+h1
+{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+
+/* Change subtitle by changing text size and margin */
+
+#actions
+{
+    font-size: 1.1em;
+    margin:0 0 20px 0;
+}
+
+                                    /* SEARCH BAR */
+
+
+.search
+{
+    display: inline-flex; 
+}
+
+/* Search Bar Icon : Alignment, Dimensions and Color */
+
+#search-ico
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+}
+
+/* Formatting the text in the search form */
+#search-text 
+{
+    color: black;
+    font-weight: 600;
+    font-size: 1.1em;
+    border: 2px solid #f2f2f2;
+    padding:0 0 0 25px; 
+}
+
+/* Formatting the search button */
+
+#search-button
+{
+    color: #f2f2f2;
+    background-color: #0065fc;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    font-size: 1.1em;
+    padding: 0 30px 0 30px;
+    cursor: pointer;
+}
+
+/* Mobile search icon - not displayed on the desk */
+
+#search-glass
+{
+    display: none;
+}
+
+                                    /* FILTERS */
+
+
+
+/* Formatting of filter element texts */
+
+.filters 
+{ 
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* texts of filter elements inside the fields */
+
+.filters p
+{
+    margin: 0 30px 0 20px;   
+}
+
+/*Alignment of the title "Filters" */
+
+#filters-title
+{
+    margin-right: 50px;
+    font-size: 1.2em;
+    border: none;
+}
+
+/* Alignments of all filter list items */
+
+.filters ul 
+{
+    display: flex;
+    align-items: center; 
+    padding: 0;  
+}
+
+/* Alignment and Formatting of Filter List Elements */
+
+.filters li 
+{
+    display: flex;
+    align-items: center;      
+    list-style-type: none;
+    margin-right: 60px;  
+    border: 2px solid #f2f2f2;
+    border-radius: 50px;    
+}
+
+/* Change the appearance of the elements when the mouse passes over them */
+
+.filters li:hover
+{
+    background-color: #0065fc;
+    color: #ffffff;
+}
+
+/* Filter Icons */
+
+.ico-filters
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#0065fc;
+    background-color: #deebff;
+    padding: 18px;
+    border-radius: 50px;      
+}
+
+/* you also change the appearance of the icons when hovering over the mouse */
+
+.ico-filters:hover
+{
+    background-color: #ffffff;
+    color: #0065fc;
+}
+
+/* Paragraph and information icon under the filters */
+
+#information
+{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 20px 0; 
+    color: #4b4949;
+    font-size: 1.2em; 
+}
+
+/* information icon */
+
+#information i
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065fc;
+    border: 2px solid #f2f2f2;
+    border-radius: 500px;
+    padding: 8px 14px;
+    margin-right: 20px;       
+}
+
+                            /* ACCOMODATIONS AND POPULAR SECTIONS */
+
+/* Formatting of "accommodation" and "popular" sections and alignments between them */
+
+.accomodations-popular 
+{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+                                /* ACCOMODATIONS SECTION */
+
+/* Section "accommodation" to which we give the background color, the dimensions, and the padding and rounded */
+
+.accomodations-section
+{
+    width: 70%;
+    background-color: #f2f2f2;
+    padding: 0;
+    border-radius: 30px;
+}
+
+/* Item container alignments and dimensions */
+
+.accomodations
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+/* Alignments of the "articles" between them, sending to the line, dimensions, background color, margins, borders */
+
+.accomodations-article 
+{
+    flex-wrap: wrap; 
+    width: 29%;
+    background-color: #ffffff;
+    margin: 20px 12px;
+    border: none;
+    border-radius: 20px ; 
+    padding: 5px;      
+}
+
+/* Sizing of images, rounding of borders */
+
+.img-accomodations
+{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+.accomodations a
+{
+    color: black;
+    text-decoration: none;
+}
+
+/* Margin h3 and p of article*/
+
+.accomodations-article h3
+{
+    margin: 10px 0 10px 10px;
+}
+
+
+.accomodations-article p
+{
+   margin: 0 0 10px 10px;
+}
+
+/* Formatting star */ 
+
+.star 
+{
+    margin: 0 0 10px 10px;
+    color: #0065fc
+}
+
+/* Stars in grey color */
+
+.star-grey
+{
+    color: #c7c3c3c5;
+}
+
+/* Modification of "Show more" at the bottom of the accommodation section */
+
+#more
+{
+    margin: 30px 0 0 50px;
+}
+
+#more a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+                                    /*POPULAR SECTION */
+
+/* Formatting popular section */
+
+/* "Popular" section to which is applied: background color, dimensions and margins */
+
+.popular
+{
+    background-color: #f2f2f2;
+    width: 25%;
+    margin-left: 40px;
+    border-radius: 30px;
+    padding: 0 10px 0 25px;
+}
+
+/* Popular section title (including title and icon ). Alignment of the 2 elements between them and margin */
+
+.popular-title
+{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 5vh 8vw 4vh .5vw;
+    font-size: 1.4em;
+}
+
+/* Dimensions of the icon next to the title of the "popular" section */
+
+#popular-title-ico
+{
+    font-size: 1.4em;
+}
+
+/* Element Alignments, Background Color, margin and Rounded border */
+
+.popular-article
+{
+    display: flex;   
+    justify-content: flex-start; 
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 90%;
+}
+
+/* Changing image dimensions, rounding border */
+
+.img-popular
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+}
+
+.popular a
+{
+    color: black;
+    text-decoration: none;
+}
+/* Padding of h3 and p of the element */
+
+.popular-article h3
+{
+    padding: 0 10px 0 10px;
+}
+
+.popular-article p
+{
+    padding: 0 10px 60px 10px;
+}
+
+/* Margin to the star */
+
+.star
+{
+    margin-left: 10px;
+}
+
+                                            /*ACTIVITIES SECTION */
+
+/* Formatting of activities section */
+
+/* Alignment of the "Activities" section */
+
+.activities
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+/* Alignment of elements, width, background color, margin and rounded border */
+
+.activities-article
+{
+    background-color: #ffffff;
+    margin: 20px 0 20px 0;   
+    border-radius: 20px ; 
+    width: 22%;  
+}
+
+
+
+/* Alignment title of the element */
+
+.activities-article h3, .activities-article-only h3
+{  
+   margin-left: 20px;
+}
+
+.activities a
+{
+    color: black;
+    text-decoration: none;
+}
+
+/* Borders and rounding of articles only (large images) */
+
+.only
+{
+    border-bottom: 1px solid #f2f2f2;
+    border-radius: 20px; 
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75); 
+}
+/* Borders, rounded to items at the top (with 2 items/column) */
+
+.activities-article-top 
+{
+    border-bottom: 1px solid #f2f2f2;
+    border-radius: 20px; 
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75); 
+}
+
+/* Borders, rounding and margins of bottom items (with 2 items/column) */
+
+.activities-article-bottom
+{
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75); 
+}
+.activities-article-top
+{
+    border-bottom: 1px solid #f2f2f2;
+    border-radius: 20px; 
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75);  
+}
+
+.activities-article-bottom
+{
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75);  
+}
+
+.activities-article-top-right
+{
+    border-bottom: 1px solid #f2f2f2;
+    border-radius: 20px; 
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75);    
+}
+
+.activities-article-bottom-right
+{
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 17px -9px rgba(0,0,0,0.75);   
+}
+
+/* Size of smaller images */
+
+.img-activities
+{
+    width: 100%; 
+    height: 160px; 
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.activities-article-top img
+{
+    height: 190px;
+    object-fit: cover;
+    object-position: center;   
+}
+
+.activities-article-bottom img
+{
+    height: 125px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.activities-article-top-right img
+{
+    height: 140px;
+    object-fit: cover;
+    object-position: center; 
+}
+
+.activities-article-bottom-right img
+{
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Size of larger images */
+
+.img-activities-height
+{
+    width: 100%;
+    height: 420px;
+    border-radius: 20px 20px 0  0; 
+    object-fit: cover;
+    object-position: center;
+}
+
+                                            /*FOOTER*/
+
+/* Alignments of the elements present in the footer, and we give a background color */
+
+footer
+{
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.footer-field
+{   
+    flex-flow: column nowrap;
+    margin: 20px 350px 40px 50px;
+    font-size: 1.2em;
+}
+
+/* Alignements, removing bullets from the list and managing line spacing */
+
+.footer-field a
+{
+    display: flex;
+    flex-flow: column nowrap;
+    line-height: 2em;
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+    font-weight: 500;
+}
+
+.footer-field h4 
+{
+    font-size: 1.2em;
+    margin-bottom: 0;  
+}
+
+.footer-field ul
+{
+    padding: 0;
+}
+.footer-field li
+{
+    list-style: none;
+}
+
+                                            /* MEDIA QUERIES */
+
+                                                    /* Media queries mobile */
+
+@media only screen and (max-width: 480px) 
+{
+    /* Removal of the margin applied in "desk" */
+   
+    body, header, main
+    {
+        margin: 0;
+    }
+    
+    /* not display the nav "desk" */
+
+    nav
+    {
+        display: none;
+    }
+
+    /*  display the nav "mobile" */
+
+    .mobile
+    {
+        display: contents;
+        font-size: 0.9em;
+    }
+
+    #sign-up-mob
+    {
+        color: #0065fc;
+        font-weight: bold;
+    }
+
+    /* formatting logo and "register" link*/
+
+    #first-line
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;      
+    }
+    /* Removal of link underline */
+
+    .mobile a
+    {
+        text-decoration: none;
+    }
+
+    /* formatting of the elements "accommodation and "activities"*/
+
+    #second-line 
+    {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #accomodations-link
+    {
+        padding: 0 40px 0 50px;
+        color: #0065fc;
+    }
+
+    #activities-link
+    {
+        padding: 0 30px 0 50px;
+        color: #585656;
+    }
+
+    /* formatting underline link */
+
+     .overline-accomodations-mob, .overline-activities-mob
+     {
+        height: 2px;
+        background-color: #f2f2f2;
+        margin-top: 10px;
+     }
+
+    .overline-accomodations-mob 
+    {
+        background-color: #0065fc; 
+    }
+
+      
+    /* Margin on the "search and filters" section */
+
+    .search-filters
+    {
+        margin: 0 15px 0 15px;
+    }
+
+    /* Formatting of title h1 */
+
+    h1
+    {
+        font-size: 1.3em;
+        text-align: center;
+    }
+
+    /* Formatting subtitle */
+
+    #actions
+    {
+        font-size: 0.9em;
+        margin: 0;
+        text-align: center;
+    }
+
+    /* Formatting search bar */ 
+
+    .search
+    {
+        display: inline-flex;
+        border-top:1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+
+    /* Formatting the search icon */
+
+    #search-ico
+    {
+      border-radius: 15px 0 0 15px;
+      padding: 10px 18px;
+    }
+
+    /* Not displaying the "desk" search button */
+
+    #search-button
+    {
+        display:none;
+    }
+
+    /* Formatting of the "magnifying glass" button which replaces the "Search" button */
+
+    #search-glass
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:#f2f2f2;
+        background-color: #0065fc;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    /* Formatting the Search Text Field */
+
+    #search-text
+    { 
+       border: none;
+       font-size: 1em;
+       width: 85%;
+       padding-left: 10px;
+    }
+
+                                         /* FILTERS*/
+
+    /* Alignment of filter elements */
+
+    .filters  
+    {
+       display: flex;
+       justify-content: flex-start;
+       flex-flow: row wrap;
+       font-size: 1em;
+    }
+    
+    .ico-filters
+    {
+        font-size: 1.2em;
+    }
+    /*  Formatting the list */
+
+    .filters ul
+    {
+        flex-wrap: wrap;
+        margin: 0;
+    }
+
+    /* Formatting title */
+
+    #filters-title
+    {
+        margin: 0 60% 0 0;       
+    }
+
+    /* Formatting text */
+
+    .filters li
+    {
+       margin: 10px 15px 0 0px;
+       font-size: .8em;
+    }
+
+    .filters li p
+    {
+        margin: 0 15px 0 15px;
+    }
+  
+                                    /* Information */
+
+    /*formatting of "information" elements */
+
+    #information 
+    {
+        align-items: baseline;
+        font-size: 0.9em;
+        font-weight: 400;
+        margin: 10px 0 10px 10px;
+    }
+    /* formatting of the icon */
+
+    #information i
+    {
+        padding: 8px 12px;
+    }
+
+                            /* Popular sections and accommodation */
+
+    /* Alignment and inversion of popular sections and accommodation */
+
+    .accomodations-popular
+    {
+       flex-flow: column-reverse nowrap;
+    }
+
+                                        /*Popular section */
+
+    /* Sizing, margins and rounding of border */
+    /* Margins at 0 because chrome applies? */ 
+
+    .popular
+    {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 20px 0;
+        border-radius: 0;
+    }
+
+    /* Formatting the popular title */
+
+    .popular-title
+    {
+        font-size: 1.1em;
+        margin: 0 35vw 20px 10px;
+    }
+
+    /* Formatting of articles */ 
+
+    .popular-article 
+    {
+        font-size: 0.9em; 
+        margin: 10px;
+    }
+
+    /* Formatting of "popular" images */
+
+    .img-popular
+    {
+        width: 40vw;
+        height: 140px;       
+    }
+
+    /* Formatting of popular article titles */
+
+    .popular-article h3
+    {
+        margin: 0 0 10px 10px;
+    }
+
+    /* Formatting of paragraphs */
+
+    .popular-article p
+    {
+        margin: 0 0 0 10px;
+    }
+
+    /*Formatting star */
+
+    .star
+    {
+        margin: 0 0 0 20px;
+    }
+
+                                   /* Accommodation Section */
+
+    /* Formatting the Accommodation section */
+
+    .accomodations-section
+    {
+        width: 100%;
+        margin: 0;
+        padding: 20px 0 20px 0;
+        border-radius: 0px;
+        background-color: #ffffff;
+    }
+
+    .accomodations
+    {
+        padding: 0;
+    }
+    /* Formatting of articles */
+
+    .accomodations-article
+    {
+        width: 100%;
+        box-shadow: 0 0 0 0.1em #f2f2f2;
+        font-size: 0.7em;
+        margin: 10px;
+    }
+
+    .accomodations-article h3
+    {
+        margin-left: 20px;
+    }
+
+    .accomodations-article p
+    {
+        margin-left: 20px;
+    }
+
+    /* Formatting of images */
+
+    .img-accomodations
+    {
+        height: 110px;
+    }
+
+    /* Formatting the section title */
+
+    #hebergements
+    {
+        font-size: 1.1em;
+        margin: 0 0 10px 20px;
+    }
+
+    /* Formatting of "Show More " at the bottom of the accommodation section */
+
+    #more
+    {
+        margin: 20px 0 10px 20px;
+        font-size: .9em;
+    }
+
+                                      /* Activities section */
+
+    /* Alignment and Formatting of the Activities section */
+
+    .activities-section
+    {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 0 ;   
+    }
+
+    /* Formatting the section title */
+
+    .activities-section h2
+    {
+        font-size: 1.2em;
+        margin: 0 0 20px 10px;
+    }
+
+    /* Formatting the Item Container */
+
+    .activities
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    /* Formatting of articles */
+
+    .activities-article
+    {
+        width: 100%;
+        margin: 10px 0 10px 0;   
+    }
+
+    /* Formatting of "single" items (1 per desk column) */
+
+    .only
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*Sizing of large pics */
+
+    .img-activities-height
+    {
+        height: 130px;
+        width: 100%;
+    }
+
+    /* Sizing of small pics */
+
+    .img-activities
+    {
+        height: 130px;
+    }
+
+    /* Size of item titles */
+
+    .activities-article h3
+    {
+        font-size: 0.8em;
+    }
+
+                                        /* Footer */
+
+    /* Alignment of Footer Elements */
+
+    footer
+    {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    /* Formatting the elements of the footer */
+
+    .footer-field
+    {
+        margin: 10px;
+        font-size: 0.8em;
+    }
+}
+
+                                /* MEDIA QUERIES for screens between 480px and 768px */
+
+@media only screen and (min-width: 480px) and (max-width: 768px)
+{
+    body
+    {
+        margin:0;
+    }
+    header, main
+    {
+        padding: 10px;
+        margin: 0;
+    }
+
+    nav
+    {
+        display: none;
+    }
+    .mobile
+    {
+    display: contents;
+    }
+    .mobile
+    {
+        display: contents;
+        font-size: 0.8em;
+        font-weight: bold;
+    }
+
+        /*  formatting logo and "register" link*/
+
+    #first-line
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px;      
+    }
+    /* Removal of underline link s*/
+
+    .mobile a
+    {
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    /* formatting of the elements "accommodation and "activities"*/
+
+    #second-line 
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    #sign-up-mob
+    {
+        color: #0065fc;
+    }
+
+    #accomodations-link
+    {
+        padding: 0 70px 0 70px;
+        color: #0065fc;
+    }
+
+    #activities-link
+    {
+        padding: 0 70px 0 70px;
+        color: #585656;
+    }
+  
+     .overline-accomodations-mob, .overline-activities-mob
+     {
+         height: 2px;
+         background-color: #f2f2f2;
+         margin-top: 10px;
+     }
+
+    .overline-accomodations-mob 
+    {
+        background-color: #0065fc; 
+    }
+    h1
+    {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #actions
+    {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .search
+    {
+        font-size: .9em;    
+    }
+
+    .filters
+    {
+        display: flex;
+        flex-flow: row wrap;
+        font-size: .9em;
+    }
+
+    #filters-title
+    {
+        font-size: 1.2em;
+        margin: 0 60% 0 10px;
+    }
+
+    .filters ul
+    {
+        flex-wrap: wrap;
+        margin: 0 10px 10px 0;
+    }
+
+    .filters li
+    {
+        margin: 10px;
+    }
+
+    #information
+    {
+       font-size: 1.1em;
+      justify-content: center;
+      margin: 0 0 20px 10px;
+    }
+    #information p
+    {
+       margin: 0; 
+    }
+
+    .accomodations-popular
+    {
+        width: 100%;
+    }
+
+    .accomodations-section
+    {
+        width: 50%;
+    }
+
+    .accomodations
+    {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+
+    .accomodations-article
+    {
+        width: 90%;
+        font-size: 1em;
+        margin: 10px 0 0 0;
+    }
+
+    .popular
+    {
+        width: 50%;
+        margin-left: 15px;
+        padding: 0 10px 0 10px;
+    }
+
+    #popular-title
+    {
+        font-size: 1em;
+        margin: 10px 20px 10px 0;
+    }
+    .popular-article
+    {
+        flex-flow: column wrap;
+        font-size: 1em;
+        width: 95%;
+        margin: 10px 0 10px 0;
+    }
+
+    .img-popular
+    {
+        min-width: 100%;
+        height: 300px;
+        border-radius:20px 20px 0 0;
+    }
+
+    #more
+    {
+        margin-bottom: 10px;
+    }
+
+    .activities
+    {
+        flex-flow: row wrap;
+    }
+
+    .activities-article
+    {
+        width: 48%;
+        font-size: 1.2em;
+    }
+
+    .activities-article-bottom
+    {
+        margin-top:5px;
+    }
+
+    footer
+    {
+        flex-flow:  row wrap;
+        justify-content: center;
+        font-size: .9em;
+    }
+
+    .footer-field
+    {
+        margin: 0 20px 0 20px;
+    }
+}
+
+
+                            /* MEDIA QUERIES for screens between 768 px and 1024px */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+    body
+    {
+        margin:0;
+    }
+    
+    header, main
+    {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0;
+    }
+
+    .link
+    {
+       width: 60%; 
+    }
+
+    h1
+    {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    h2
+    {
+        font-size: 1.1em;
+    }
+
+    #sign-up-mob
+    {
+        color: #0065fc;
+    }
+
+    #actions
+    {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .search
+    {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .filters
+    {
+        display: flex;
+        flex-flow: row wrap;   
+        font-size: 1.1em;
+    }
+
+    .filters ul
+    {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin:0 0 10px 50px;
+    }
+
+    .filters li
+    {
+        margin-top: 10px;
+    }
+    
+    #information
+    {
+        font-size: 1.1em;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .accomodations-popular
+    {
+        width: 100%;
+    }
+
+    .accomodations-section
+    {
+        width: 50%;
+    }
+
+    .accomodations
+    {
+        flex-flow: row wrap;
+        padding: 0 5px 0 5px;
+    }
+
+    .accomodations-article
+    {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .popular
+    {
+        width: 50%;
+    }
+
+    #popular-title
+    {
+        font-size: 1em;
+        margin: 10px 20px 10px 0;
+    }
+    .popular-article
+    {
+        flex-flow: column wrap;
+        font-size: 1.2em;
+    }
+
+    .img-popular
+    {
+        width: 97%;
+        height: 300px;
+        border-radius:20px 20px 0 0;
+    }
+
+    .activities
+    {
+        flex-flow: row wrap;
+    }
+
+    .activities-article
+    {
+        width: 48%;
+        font-size: 1.2em;
+    }
+
+    .activities-article-bottom
+    {
+        margin-top:25px;
+    }
+    .activities-article-bottom-right
+    {
+        margin-top: 35px;
+    }
+
+    footer
+    {
+        flex-flow:  row wrap;
+        justify-content: space-around;
+        font-size: 1em;
+    }
+
+    .footer-field
+    {
+        margin: 0 10px 0 10px;
+    }
+}
+
+
+                                      /* MEDIA QUERIES screen between 1024 and 1480px */
+
+    
+
+@media screen and (min-width: 1024px) and (max-width: 1480px)
+{
+    header, main
+    {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .link
+    {
+        width: 50%;
+    }
+    
+    .filters li
+    {
+        margin-right: 10px;
+    }
+
+    .filters p
+    {
+        margin:5px;
+    }
+    
+    .accomodations-section
+    {
+        width: 70%;
+        padding: 0;
+    }
+
+    .accomodations
+    {
+        padding: 0;
+    }
+    .accomodations-article
+    {
+        width: 44%;
+        margin: 10px;
+    }
+
+    #more
+    {
+        margin-bottom: 10px;
+    }
+
+    .popular
+    {
+        width: 30%;
+    }
+    .popular-title
+    {
+        margin:30px 6vw 20px 0;
+        font-size: 1.1em;
+    }
+
+    .popular p
+    {
+        padding-bottom: 30px;
+    }
+
+    .popular-article
+    {
+        max-width: 98%;
+    }
+
+    .img-popular
+    {
+        min-width: 100%;
+        max-height: 250px;
+    }
+    
+    .activities
+    {
+        font-size: 0.7em;
+    }
+
+    .activities-article-top
+    {
+        margin-bottom: 30px;
+    }
+
+    .footer-field
+    {
+        margin-right: 100px;
+    }
+}
